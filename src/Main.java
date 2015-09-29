@@ -27,7 +27,7 @@ public class Main {
             i.speak();
         }
         //Tests the getWarmBlooded method
-        /*do {
+        do {
         do {
         Answer=" ";
         System.out.println("Are mammals warm blooded?");
@@ -36,14 +36,14 @@ public class Main {
                 moveon=true;
             }
         } while (moveon==false);
-        if (Answer == "Yes"||Answer=="yes"){
+        if (Answer.equals("Yes")||Answer.equals("yes")){
             System.out.println("Right Answer!");
             CorrectAnswer=true;
         }
         else{
             System.out.println("Wrong Answer! Try Again");
         }
-        } while (CorrectAnswer==false); */
+        } while (CorrectAnswer==false);
         System.out.println();
         System.out.println("Dogs are warm blooded: "+myDog.getWarmBlooded());
         System.out.println("Bats are warm blooded: "+myBat.getWarmBlooded());
